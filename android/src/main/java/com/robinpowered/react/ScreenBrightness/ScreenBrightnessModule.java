@@ -33,7 +33,7 @@ public class ScreenBrightnessModule extends ReactContextBaseJavaModule
     public static final String MODULE_NAME = "ScreenBrightness";
 
     private static final String PERMISSION_EVENT_NAME = "screenBrightnessPermission";
-    private static final int BRIGHTNESS_MAX = 255;
+    private static final int BRIGHTNESS_MAX = 4095;
     private static final int BRIGHTNESS_MIN = 0;
     private final int writeSettingsRequestCode;
 
